@@ -1,8 +1,9 @@
 @import '@fontsource/fira-mono';
 
 :root {
-	font-family: 'M PLUS 1p', Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	
+	font-family: 'M PLUS 1p', Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 	/* Colors */
 	--background: #222;
 	--foreground: #eee;
@@ -23,7 +24,8 @@ body::before {
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://res.cloudinary.com/tihos/image/upload/c_scale,f_auto,q_auto,w_1800/v1621387685/pexels-frans-van-heerden-1022692_erycwi.jpg');
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url('https://res.cloudinary.com/tihos/image/upload/c_scale,f_auto,q_auto,w_1800/v1621387685/pexels-frans-van-heerden-1022692_erycwi.jpg');
 	background-size: cover;
 }
 
@@ -33,7 +35,8 @@ body::before {
 	flex-direction: column;
 }
 
-h1, h2 {
+h1,
+h2 {
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 	font-weight: 700;
 }
@@ -61,11 +64,8 @@ h2 {
 	font-variant: small-caps;
 	font-size: 3.5rem;
 	color: var(--foreground);
-	text-shadow:
-      0 0 4px var(--neon-2),
-      0 0 11px var(--neon-2),
-      0 0 19px var(--neon-2),
-      0 0 40px var(--neon-2);
+	text-shadow: 0 0 4px var(--neon-2), 0 0 11px var(--neon-2), 0 0 19px var(--neon-2),
+		0 0 40px var(--neon-2);
 }
 
 .fixed {
