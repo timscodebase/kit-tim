@@ -111,7 +111,6 @@
 
 <style>
 	.content {
-		width: 100%;
 		padding: 3rem;
 	}
 
